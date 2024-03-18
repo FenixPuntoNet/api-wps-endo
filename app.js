@@ -33,5 +33,7 @@ client.on('ready', () => {
 });
 
 client.on("message", async (message) => {
-    await client.sendMessage("573192114380@c.us", "Text");
+    await client.sendMessage("573013570670@c.us", "Text");
 });
+
+client.initialize();
